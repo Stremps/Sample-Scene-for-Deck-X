@@ -12,7 +12,7 @@ Este site apresenta a cena de amostra desenvolvida para o dispositivo Deck X (op
 ## Caminho recomendado
 
 - **Primeiros passos**: visão rápida de como obter o projeto, abrir no Unity Hub e executar o primeiro teste.  
-  [Acessar Primeiros passos](./primeiros-passos.md)
+  [Acessar Primeiros passos](./primeiros-passos)
 
 - **Ferramentas e plataformas**: contexto dos softwares e hardwares utilizados (Unity, XR Interaction Toolkit, OpenXR, Deck X, Leap Motion) com links oficiais.  
   [Acessar Ferramentas](./ferramentas/)
