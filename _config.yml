@@ -1,8 +1,17 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Deck X • Sample Scene (Unity)
+description: Documentação essencial para configuração, estudo e uso da cena de amostra.
 theme: just-the-docs
+url: https://github.com/Stremps
 
-url: https://just-the-docs.github.io
+# busca e navegação
+search_enabled: true
+just_the_docs:
+  navigation_depth: 2
 
+# links de topo
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  "Repositório no GitHub":
+    - "https://github.com/Stremps"
+
+# quando for trabalhar com esquema escuro próprio depois:
+# color_scheme: deckx
