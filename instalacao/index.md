@@ -5,6 +5,8 @@ nav_order: 4
 has_children: true
 ---
 
+# EM CONSTRUÇÃO
+
 Esta seção reúne as etapas essenciais para preparar o ambiente antes de abrir e testar a cena de amostra.  
 Aqui você encontrará **a versão recomendada do Unity e seus módulos**, a **configuração do OpenXR** (incluindo perfis/extensões relevantes) e a **integração do Leap Motion** no Editor.
 

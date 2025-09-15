@@ -6,6 +6,8 @@ nav_order: 2
 description: "Ativar o plugin OpenXR no Unity, selecionar perfis/extensões e validar o funcionamento."
 ---
 
+# EM CONSTRUÇÃO
+
 O **OpenXR** padroniza a interface entre a aplicação e os dispositivos/plataformas XR. Nesta página você irá **ativar o plugin OpenXR no Unity**, **selecionar os perfis/extensões** pertinentes e realizar uma **verificação rápida**.
 
 Conteúdo a completar:
