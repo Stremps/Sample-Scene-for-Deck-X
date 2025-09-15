@@ -6,6 +6,11 @@ nav_order: 1
 ---
 
 ## Visão geral
+
+<p align="center">
+  <img src="{{ '/assets/img/ferramentas/Unity.jpg' | relative_url }}" alt="Leap Motion Controller — visão geral" width="400"/>
+</p>
+
 Unity é um ambiente de desenvolvimento integrado (IDE) para criação de aplicações interativas em 3D/2D. Oferece um Editor visual com execução em tempo real (*Play Mode*), pipeline de *build* para múltiplas plataformas e um sistema oficial de pacotes. Nesta documentação, Unity é a base para compor a cena de amostra, ajustar propriedades e validar o funcionamento antes de gerar *builds*.
 
 ## Instalação base
