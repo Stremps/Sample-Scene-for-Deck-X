@@ -1,55 +1,43 @@
 ---
 layout: default
-title: Primeiros passos
+title: "Primeiros passos"
 nav_order: 2
-description: Caminho rápido para abrir o projeto no Unity e executar o primeiro teste local.
+description: "Guia rápido para clonar o projeto, abrir no Unity Hub e acessar a cena de amostra."
 ---
 
-# EM CONSTRUÇÃO!
+## Objetivo
+Este guia apresenta os **passos iniciais** para abrir e executar a cena de amostra no Unity. Ele conecta as seções de **[Ferramentas e plataformas](../ferramentas/)** e **[Instalação e configuração](../instalacao/)**, fornecendo um caminho direto para validar se o ambiente está corretamente preparado antes de explorar os exemplos da cena.
 
-Esta página conduz o leitor ao primeiro contato com a cena de amostra. O objetivo é **abrir o projeto no Unity e executar um teste local**. Os detalhes finos de instalação e variações por hardware ficam na seção [Instalação e configuração](./instalacao/); a exploração pedagógica da experiência está em [Cena de amostra](./cena-amostra/).
+## Clonar o repositório
+O código-fonte do projeto está disponível publicamente no GitHub:  
+**[Sample Scene for Deck X (Unity)](https://github.com/Stremps/Sample-Scene-for-Deck-X-Unity)**
 
-## Pré-requisitos
-> Nota. Liste aqui os elementos mínimos para o primeiro teste. Mantenha sucinto e aponte detalhes para “Instalação e configuração”.
-- **Software**: Unity (versão recomendada), Unity Hub.  
-  _Preencher: versão exata do Unity e módulos obrigatórios._
-- **Hardware (opcional para este primeiro teste)**: Deck X, Leap Motion.  
-  _Preencher: se o primeiro teste exige ou não o hardware conectado._
+Para clonar:
+```bash
+git clone https://github.com/Stremps/Sample-Scene-for-Deck-X-Unity.git
+```
+Após o clone, abra a pasta do projeto diretamente pelo **Unity Hub**.
 
-Leituras de apoio: [Ferramentas e plataformas](./ferramentas/).
+## Versão do Unity recomendada
+A cena foi desenvolvida na versão **Unity 2022.3 LTS (Long Term Support)**.  
+O uso de versões diferentes pode resultar em erros de compatibilidade ou necessidade de reimportação de pacotes.  
+> Consulte **[Instalação e configuração → Módulos do Unity](../instalacao/unity-modulos)** para detalhes sobre instalação via Unity Hub.
 
-## Obter o projeto
-> Escolha uma única forma principal de obtenção (ex.: `git clone`) e cite alternativas se necessário.
-- _Preencher: URL do repositório e comando `git clone`._
-- _Preencher: instruções para baixar ZIP, caso prefira._
+## Abrindo no Unity Hub
+1. Abra o **Unity Hub**.  
+2. Clique em **Add project from disk**.  
+3. Selecione a pasta clonada.  
+4. Confirme que a versão do Editor corresponde à **2022.3 LTS**.
 
-## Abrir no Unity Hub
-1. Abrir **Unity Hub** → **Open** → selecionar a pasta do projeto.  
-2. Confirmar a **versão do Editor** sugerida pelo Hub.  
-3. Aguardar a importação inicial.  
-   _Preencher: observações específicas de importação (ex.: TMP resources, URP)._
+## Localizando a cena
+Dentro do projeto, a cena de amostra está localizada em:  
+```
+Assets/Scenes/Sample Scene.unity
+```
 
-## Carregar a cena principal
-- Caminho da cena: `Assets/.../Scenes/Sample.unity`.  
-  _Preencher: caminho real e nome canônico da cena._  
-- Abrir a cena e aguardar o carregamento.
+Abra-a para visualizar o ambiente e explorar os exemplos prontos. Caso queira aprofundar nos conceitos, consulte as seções **[Ferramentas e plataformas](../ferramentas/)** e **[Cena de amostra](../cena-amostra/)** para compreender melhor os recursos utilizados.
 
-## Executar o primeiro teste
-1. Pressionar **Play** no Editor.  
-2. Observar a tela inicial/overlay de status.  
-   _Preencher: qual feedback mínimo o usuário deve ver; logs esperados no Console._
-
-Se houver dependência de OpenXR/Leap Motion para este teste, aponte diretamente para:
-- [Configurar OpenXR e perfis](./instalacao/openxr-perfis)  
-- [Integrar Leap Motion no Unity](./instalacao/leapmotion-unity)
-
-## Validação rápida
-> Liste sinais de que “deu certo” e sintomas comuns de erro.
-- **Sucesso**: elementos de UI exibidos, mensagem “Hello Deck X” no Console, FPS estável.  
-- **Problemas comuns**: versão do Unity incompatível, pacotes faltando, erro de TMP.  
-  Consulte [Solução de problemas](./troubleshooting).
-
-## Próximos passos
-- Completar a preparação do ambiente em [Instalação e configuração](./instalacao/).  
-- Explorar os três eixos da [Cena de amostra](./cena-amostra/) — Interface, Navegação e Interação.  
-- Conhecer as bases do projeto em [Ferramentas e plataformas](./ferramentas/).
+Leitura recomendada  
+- [Unity Hub — Download e gerenciamento](https://unity.com/download)  
+- [Manual do Unity (LTS)](https://docs.unity3d.com/2022.3/Documentation/Manual/UnityManual.html)  
+- [Repositório Sample Scene for Deck X (GitHub)](https://github.com/Stremps/Sample-Scene-for-Deck-X-Unity)
